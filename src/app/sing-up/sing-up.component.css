@@ -1,0 +1,20 @@
+.login-card {
+  height: 500px;
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.856);
+}
+.login-card mat-card-title{
+  color: aliceblue;
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: x-large;
+}
+.login-card form{
+  margin-top: 1em;
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+  justify-content: center;
+}

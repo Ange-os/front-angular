@@ -1,0 +1,28 @@
+header{
+  display: flex;
+  height: 12vh;
+}
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+}
+.logo img{
+  padding-left: 2rem;
+  height: 150px;
+  width: 280px;
+}
+.nav-header{
+  gap: 2rem;
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-header a{
+  font-size: large;
+}
+.nav-header a:hover{
+  cursor: pointer;
+}
